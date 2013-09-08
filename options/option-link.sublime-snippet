@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+// Link
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'link',
+    'title'     => __('${3:title}','${4:domain}'),
+    'url'       => '${5:http://google.com}',
+    'classes'   => '${6:btn-info}'  // You can also use btn-primary, btn-warning, btn-success, btn-inverse
+);
+]]></content>
+    <tabTrigger>opt_link</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

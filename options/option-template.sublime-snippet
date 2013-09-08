@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+// Template
+${1:\$options}[] = array(
+    'span'      => 2
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'template',
+    'title'     => __('${3:title}','${4:domain}'),
+    'template'  => ${5:\$template}
+);
+]]></content>
+    <tabTrigger>opt_template</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

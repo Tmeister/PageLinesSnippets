@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+// Image Upload
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'image_upload',
+    'title'     => __('${3:title}','${4:domain}'),
+    'imgsize'   => '${5:16}',         // * The image preview 'max' size
+    'sizelimit' => '${6:512000}',     // * Image upload max size default 512kb
+);
+]]></content>
+    <tabTrigger>opt_image</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

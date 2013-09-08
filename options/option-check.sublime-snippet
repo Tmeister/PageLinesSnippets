@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// CheckBox
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'check',
+    'title'     => __('${3:title}','${4:domain}')
+);
+]]></content>
+    <tabTrigger>opt_check</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

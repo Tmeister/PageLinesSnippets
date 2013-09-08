@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+// Count Select
+${1:\$options}[] = array(
+    'key'          => \$this->id.'_${2:key_name}',
+    'type'         => 'count_select',
+    'title'        => __('${3:title}','${4:domain}'),
+    'count_start'  => ${5:1},   // Starting Count Number
+    'count_number' => ${6:10},  // Ending Count Number
+    ${7:'suffix'       => '%'  // * Added to the end of the value and optional}
+);
+]]></content>
+    <tabTrigger>opt_count</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

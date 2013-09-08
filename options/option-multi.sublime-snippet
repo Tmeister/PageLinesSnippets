@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+// Multi Select
+${1:\$options}[] = array(
+    'type'      => 'multi', // Here you can nest multiple options
+    'title'     => __('${2:title}','${3:domain}'),
+    'opts'      => array(
+        array(
+            ${4://Inner options}
+        ),
+        array(){
+            // Another Option
+        }
+    )
+);
+]]></content>
+    <tabTrigger>opt_multi</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

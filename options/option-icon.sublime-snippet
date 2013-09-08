@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// Icon Selector
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'select_icon',
+    'title'     => __('${3:title}','${4:domain}')
+);
+]]></content>
+    <tabTrigger>opt_icon</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

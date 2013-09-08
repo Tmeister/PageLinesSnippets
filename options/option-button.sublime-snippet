@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// Button Select
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'select_button',
+    'title'     => __('${3:title}','${4:domain}'),
+);
+]]></content>
+    <tabTrigger>opt_button</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

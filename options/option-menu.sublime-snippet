@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// Select Menu
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'select_menu',
+    'title'     => __('${3:title}','${4:domain}')
+);
+]]></content>
+    <tabTrigger>opt_menu</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

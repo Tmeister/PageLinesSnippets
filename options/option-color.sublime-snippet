@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+// Color Picker
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'color',
+    'title'     => __('${3:title}','${4:domain}'),
+    'default'   => '#${5:FFFFFF}' // Always set a default value
+);
+]]></content>
+    <tabTrigger>opt_color</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

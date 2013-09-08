@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// Text Field
+${1:\$options}[] = array(
+    'key'       => \$this->id.'_${2:key_name}',
+    'type'      => 'text',
+    'title'     => __('${3:title}','${4:domain}')
+);
+]]></content>
+    <tabTrigger>opt_text</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
