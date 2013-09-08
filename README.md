@@ -1,7 +1,7 @@
 Sublime Text PageLines Snippets
 ==================
 
-This is a [Sublime Text][sublime] http://some.com package which includes a bunch of handy snippets for develop for [PageLines DMS][pagelines] by [Enrique Chavez][enriquechavez].
+This is a [Sublime Text][sublime] package which includes a bunch of handy snippets for develop for [PageLines DMS][pagelines] by [Enrique Chavez][enriquechavez].
 
 ## Installation ##
 
