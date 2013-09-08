@@ -1,4 +1,5 @@
-PageLines-Snippets
+Sublime Text PageLines Snippets
 ==================
 
-Sublime Text Snippets for PageLines DMS
+This is a [Sublime Text][sublime] package which includes a bunch of handy snippets for develop for [PageLines DMS][pagelines]
+
