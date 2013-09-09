@@ -5,6 +5,13 @@ This is a [Sublime Text][sublime] package which includes a bunch of handy snippe
 
 ## Installation ##
 
+### With Package Control ###
+
+* Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).
+* Select Package Control: Install Package.
+* Select __PageLines Snippets__ to install.
+* That's it.
+
 ### Without Package Control ###
 
 This package is not yet in [wbond's][package_control] repository, so you gotta use Terminal and git to install it.
